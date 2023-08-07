@@ -800,7 +800,7 @@ const Preline = () => {
           </svg>
           <div>
             <h3 className="font-semibold text-gray-800 dark:text-gray-200">Knowledgebase</h3>
-            <p className="mt-1 text-sm text-gray-500">We're here to help with any questions or code.</p>
+            <p className="mt-1 text-sm text-gray-500">We&apos;re here to help with any questions or code.</p>
             <Link className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" href="#">
               Contact support
               <svg className="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -935,7 +935,7 @@ const Preline = () => {
       </svg>
       <div className="grow">
         <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">Knowledgebase</h3>
-        <p className="mt-1 text-gray-500">We're here to help with any questions or code.</p>
+        <p className="mt-1 text-gray-500">We&apos;re here to help with any questions or code.</p>
         <p className="mt-5 inline-flex items-center gap-x-2 font-medium text-blue-600 dark:text-blue-500">
           Contact support
           <svg className="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
