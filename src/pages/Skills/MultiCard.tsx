@@ -1,5 +1,6 @@
 import React from 'react'
 import './MultiCard.css'
+import Link from 'next/link'
 
 const MultiCard = () => {
   return (
@@ -23,7 +24,7 @@ const MultiCard = () => {
         </p>
       </div>
       <div className="grid gap-5 row-gap-5 mb-8  sm:grid-cols-2 grid-cols-2-sm md:grid-cols-3 grid-cols-3-md lg:grid-cols-4 grid-cols-4-lg">
-        <a
+        <Link
           href="/"
           aria-label="View Item"
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
@@ -46,8 +47,8 @@ const MultiCard = () => {
               </div>
             </div>
           </div>
-        </a>
-        <a
+        </Link>
+        <Link
           href="/"
           aria-label="View Item"
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
@@ -70,8 +71,8 @@ const MultiCard = () => {
               </div>
             </div>
           </div>
-        </a>
-        <a
+        </Link>
+        <Link
           href="/"
           aria-label="View Item"
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
@@ -92,8 +93,8 @@ const MultiCard = () => {
               </div>
             </div>
           </div>
-        </a>
-        <a
+        </Link>
+        <Link
           href="/"
           aria-label="View Item"
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
@@ -116,8 +117,8 @@ const MultiCard = () => {
               </div>
             </div>
           </div>
-        </a>
-        <a
+        </Link>
+        <Link
           href="/"
           aria-label="View Item"
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
@@ -140,8 +141,8 @@ const MultiCard = () => {
               </div>
             </div>
           </div>
-        </a>
-        <a
+        </Link>
+        <Link
           href="/"
           aria-label="View Item"
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
@@ -164,8 +165,8 @@ const MultiCard = () => {
               </div>
             </div>
           </div>
-        </a>
-        <a
+        </Link>
+        <Link
           href="/"
           aria-label="View Item"
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
@@ -186,8 +187,8 @@ const MultiCard = () => {
               </div>
             </div>
           </div>
-        </a>
-        <a
+        </Link>
+        <Link
           href="/"
           aria-label="View Item"
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
@@ -210,15 +211,15 @@ const MultiCard = () => {
               </div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="text-center">
-        <a
+        <Link
           href="/"
           className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none"
         >
           Learn more
-        </a>
+        </Link>
       </div>
     </div>
     </div>

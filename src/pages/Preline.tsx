@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Preline = () => {
   return (
@@ -7,7 +8,7 @@ const Preline = () => {
 <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-2">
     
-    <a className="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800" href="#">
+    <Link className="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800" href="#">
       <div className="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
         <svg className="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
           <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
@@ -24,11 +25,11 @@ const Preline = () => {
           </svg>
         </span>
       </div>
-    </a>
+    </Link>
    
 
     
-    <a className="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800" href="#">
+    <Link className="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800" href="#">
       <div className="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
         <svg className="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
           <path d="M9.465 10H12a2 2 0 1 1 0 4H9.465c.34-.588.535-1.271.535-2 0-.729-.195-1.412-.535-2z"/>
@@ -46,11 +47,11 @@ const Preline = () => {
           </svg>
         </span>
       </div>
-    </a>
+    </Link>
    
 
     
-    <a className="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800" href="#">
+    <Link className="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800" href="#">
       <div className="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
         <svg className="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
           <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
@@ -67,11 +68,11 @@ const Preline = () => {
           </svg>
         </span>
       </div>
-    </a>
+    </Link>
    
 
     
-    <a className="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800" href="#">
+    <Link className="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800" href="#">
       <div className="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
         <svg className="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
           <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
@@ -88,7 +89,7 @@ const Preline = () => {
           </svg>
         </span>
       </div>
-    </a>
+    </Link>
    
   </div>
 </div>
@@ -349,7 +350,7 @@ const Preline = () => {
             Simple and affordable
           </h3>
           <p className="mt-1 text-gray-600 dark:text-gray-400">
-            From boarding passes to movie tickets, there's pretty much nothing you can't store with Preline.
+            From boarding passes to movie tickets, there&apos;s pretty much nothing you can&apos;t store with Preline.
           </p>
         </div>
       </div>
@@ -412,7 +413,7 @@ const Preline = () => {
               Strong empathy
             </h3>
             <p className="mt-1 text-gray-600 dark:text-gray-400">
-              We've user tested our own process by shipping over 1k products for clients.
+              We&apos;ve user tested our own process by shipping over 1k products for clients.
             </p>
           </div>
         </div>
@@ -463,7 +464,7 @@ const Preline = () => {
               Simple and affordable
             </h3>
             <p className="mt-1 text-gray-600 dark:text-gray-400">
-              From boarding passes to movie tickets, there's pretty much nothing you can't store with Preline.
+              From boarding passes to movie tickets, there&apos;s pretty much nothing you can&apos;t store with Preline.
             </p>
           </div>
         </div>
@@ -479,7 +480,7 @@ const Preline = () => {
 {/* 5 */}
 <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <div className="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
-    <a className="group rounded-xl overflow-hidden" href="#">
+    <Link className="group rounded-xl overflow-hidden" href="#">
       <div className="sm:flex">
         <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
           <img className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description"/>
@@ -490,7 +491,7 @@ const Preline = () => {
             Studio by Preline
           </h3>
           <p className="mt-3 text-gray-600 dark:text-gray-400">
-            Produce professional, reliable streams easily leveraging Preline's innovative broadcast studio
+            Produce professional, reliable streams easily leveraging Preline&apos;s innovative broadcast studio
           </p>
           <p className="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium">
             Read more
@@ -500,9 +501,9 @@ const Preline = () => {
           </p>
         </div>
       </div>
-    </a>
+    </Link>
  
-    <a className="group rounded-xl overflow-hidden" href="#">
+    <Link className="group rounded-xl overflow-hidden" href="#">
       <div className="sm:flex">
         <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
           <img className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1668906093328-99601a1aa584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80" alt="Image Description"/>
@@ -523,9 +524,9 @@ const Preline = () => {
           </p>
         </div>
       </div>
-    </a>
+    </Link>
 
-    <a className="group rounded-xl overflow-hidden" href="#">
+    <Link className="group rounded-xl overflow-hidden" href="#">
       <div className="sm:flex">
         <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
           <img className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Image Description"/>
@@ -546,9 +547,9 @@ const Preline = () => {
           </p>
         </div>
       </div>
-    </a>
+    </Link>
 
-    <a className="group rounded-xl overflow-hidden" href="#">
+    <Link className="group rounded-xl overflow-hidden" href="#">
       <div className="sm:flex">
         <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
           <img className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description"/>
@@ -569,7 +570,7 @@ const Preline = () => {
           </p>
         </div>
       </div>
-    </a>
+    </Link>
   </div>
 </div>
 
@@ -583,7 +584,7 @@ const Preline = () => {
   </div>
 
   <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <a className="group rounded-xl overflow-hidden" href="#">
+    <Link className="group rounded-xl overflow-hidden" href="#">
       <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
         <img className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" alt="Image Description"/>
         <span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">
@@ -596,7 +597,7 @@ const Preline = () => {
           Studio by Preline
         </h3>
         <p className="mt-3 text-gray-800 dark:text-gray-200">
-          Produce professional, reliable streams easily leveraging Preline's innovative broadcast studio
+          Produce professional, reliable streams easily leveraging Preline&apos;s innovative broadcast studio
         </p>
         <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
           Read more
@@ -605,9 +606,9 @@ const Preline = () => {
           </svg>
         </p>
       </div>
-    </a>
+    </Link>
 
-    <a className="group rounded-xl overflow-hidden" href="#">
+    <Link className="group rounded-xl overflow-hidden" href="#">
       <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
         <img className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description"/>
       </div>
@@ -626,9 +627,9 @@ const Preline = () => {
           </svg>
         </p>
       </div>
-    </a>
+    </Link>
 
-    <a className="group relative flex flex-col w-full min-h-[15rem] bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80')]" href="#">
+    <Link className="group relative flex flex-col w-full min-h-[15rem] bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80')]" href="#">
       <div className="flex-auto p-4 md:p-6">
         <h3 className="text-xl text-white/[.9] group-hover:text-white"><span className="font-bold">Preline</span> Press publishes books about economic and technological advancement.</h3>
       </div>
@@ -640,7 +641,7 @@ const Preline = () => {
           </svg>
         </div>
       </div>
-    </a>
+    </Link>
   </div>
 </div>
 
@@ -650,11 +651,11 @@ const Preline = () => {
 <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
     <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Read our latest news</h2>
-    <p className="mt-1 text-gray-600 dark:text-gray-400">We've helped some great companies brand, design and get to market.</p>
+    <p className="mt-1 text-gray-600 dark:text-gray-400">We&apos;ve helped some great companies brand, design and get to market.</p>
   </div>
 
   <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10 lg:mb-14">
-    <a className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800" href="#">
+    <Link className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800" href="#">
       <div className="aspect-w-16 aspect-h-9">
         <img className="w-full object-cover rounded-t-xl" src="https://images.unsplash.com/photo-1668869713519-9bcbb0da7171?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80" alt="Image Description"/>
       </div>
@@ -666,9 +667,9 @@ const Preline = () => {
           Better is when everything works together
         </h3>
       </div>
-    </a>
+    </Link>
  
-    <a className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800" href="#">
+    <Link className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800" href="#">
       <div className="aspect-w-16 aspect-h-9">
         <img className="w-full object-cover rounded-t-xl" src="https://images.unsplash.com/photo-1668584054035-f5ba7d426401?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3465&q=80" alt="Image Description"/>
       </div>
@@ -680,9 +681,9 @@ const Preline = () => {
           What CFR really is about
         </h3>
       </div>
-    </a>
+    </Link>
 
-    <a className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800" href="#">
+    <Link className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800" href="#">
       <div className="aspect-w-16 aspect-h-9">
         <img className="w-full object-cover rounded-t-xl" src="https://images.unsplash.com/photo-1668863699009-1e3b4118675d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3387&q=80" alt="Image Description"/>
       </div>
@@ -694,9 +695,9 @@ const Preline = () => {
           Should Product Owners think like entrepreneurs?
         </h3>
       </div>
-    </a>
+    </Link>
 
-    <a className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800" href="#">
+    <Link className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800" href="#">
       <div className="aspect-w-16 aspect-h-9">
         <img className="w-full object-cover rounded-t-xl" src="https://images.unsplash.com/photo-1668584054131-d5721c515211?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80" alt="Image Description"/>
       </div>
@@ -708,7 +709,7 @@ const Preline = () => {
           Announcing Front Strategies: Ready-to-use rules
         </h3>
       </div>
-    </a>
+    </Link>
   </div>
 
 
@@ -718,12 +719,12 @@ const Preline = () => {
         <p className="text-gray-600 dark:text-gray-400">
           Want to read more?
         </p>
-        <a className="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium" href="../docs/index.html">
+        <Link className="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium" href="../docs/index.html">
           Go here
           <svg className="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
             <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   </div>
@@ -799,12 +800,12 @@ const Preline = () => {
           <div>
             <h3 className="font-semibold text-gray-800 dark:text-gray-200">Knowledgebase</h3>
             <p className="mt-1 text-sm text-gray-500">We're here to help with any questions or code.</p>
-            <a className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" href="#">
+            <Link className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" href="#">
               Contact support
               <svg className="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z" fill="currentColor"/>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -816,12 +817,12 @@ const Preline = () => {
           <div>
             <h3 className="font-semibold text-gray-800 dark:text-gray-200">FAQ</h3>
             <p className="mt-1 text-sm text-gray-500">Search our FAQ for answers to anything you might ask.</p>
-            <a className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" href="#">
+            <Link className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" href="#">
               Visit FAQ
               <svg className="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z" fill="currentColor"/>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -833,12 +834,12 @@ const Preline = () => {
           <div>
             <h3 className="font-semibold text-gray-800 dark:text-gray-200">Developer APIs</h3>
             <p className="mt-1 text-sm text-gray-500">Check out our development quickstart guide.</p>
-            <a className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" href="#">
+            <Link className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" href="#">
               Contact sales
               <svg className="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z" fill="currentColor"/>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
   
@@ -849,9 +850,9 @@ const Preline = () => {
           <div>
             <h3 className="font-semibold text-gray-800 dark:text-gray-200">Contact us by email</h3>
             <p className="mt-1 text-sm text-gray-500">If you wish to write us an email instead please use</p>
-            <a className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" href="#">
+            <Link className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" href="#">
               example@site.com
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -926,7 +927,7 @@ const Preline = () => {
     </div>
   </div>
 
-  <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-4 lg:gap-8">    <a className="flex flex-col h-full text-center rounded-md hover:bg-gray-100 p-4 sm:p-6 dark:hover:bg-white/[.05]" href="#">
+  <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-4 lg:gap-8">    <Link className="flex flex-col h-full text-center rounded-md hover:bg-gray-100 p-4 sm:p-6 dark:hover:bg-white/[.05]" href="#">
       <svg className="w-9 h-9 text-gray-800 mx-auto dark:text-gray-200" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
         <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
@@ -941,9 +942,9 @@ const Preline = () => {
           </svg>
         </p>
       </div>
-    </a>
+    </Link>
  
-    <a className="flex flex-col h-full text-center rounded-md hover:bg-gray-100 p-4 sm:p-6 dark:hover:bg-white/[.05]" href="#">
+    <Link className="flex flex-col h-full text-center rounded-md hover:bg-gray-100 p-4 sm:p-6 dark:hover:bg-white/[.05]" href="#">
       <svg className="w-9 h-9 text-gray-800 mx-auto dark:text-gray-200" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
         <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
         <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
@@ -958,8 +959,8 @@ const Preline = () => {
           </svg>
         </p>
       </div>
-    </a>
-    <a className="flex flex-col h-full text-center rounded-md hover:bg-gray-100 p-4 sm:p-6 dark:hover:bg-white/[.05]" href="#">
+    </Link>
+    <Link className="flex flex-col h-full text-center rounded-md hover:bg-gray-100 p-4 sm:p-6 dark:hover:bg-white/[.05]" href="#">
       <svg className="w-9 h-9 text-gray-800 mx-auto dark:text-gray-200" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
         <path d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9zM3.854 4.146a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/>
         <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12z"/>
@@ -974,7 +975,7 @@ const Preline = () => {
           </svg>
         </p>
       </div>
-    </a>
+    </Link>
   </div>
 </div>
 

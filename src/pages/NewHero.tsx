@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Hero from './Hero';
 
   const NewHero = () => {
   const [asideVisible, setAsideVisible] = useState(true);

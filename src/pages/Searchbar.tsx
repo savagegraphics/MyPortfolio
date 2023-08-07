@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const SearchBar = () => {
   return (
@@ -36,7 +37,7 @@ const SearchBar = () => {
         </div>
         <h6 className="mb-2 font-semibold leading-5 text-white">Our planet</h6>
         <p className="mb-3 text-sm text-gray-300">
-          We choose to go to the moon, not because it's easy, but because it's
+          We choose to go to the moon, not because it&apos;s easy, but because it&apos;s
           hard.
         </p>
         <ul className="mb-4 -ml-1 space-y-2">
@@ -95,13 +96,13 @@ const SearchBar = () => {
             Humans
           </li>
         </ul>
-        <a
+        <Link
           href="/"
           aria-label=""
           className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-200 hover:text-gray-300"
         >
           Learn more
-        </a>
+        </Link>
       </div>
       <div>
         <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-100 hover:bg-indigo-200">
@@ -190,13 +191,13 @@ const SearchBar = () => {
             Shrek
           </li>
         </ul>
-        <a
+        <Link
           href="/"
           aria-label=""
           className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-200 hover:text-gray-300"
         >
           Learn more
-        </a>
+        </Link>
       </div>
       <div>
         <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-200 hover:bg-indigo-100">
@@ -292,13 +293,13 @@ const SearchBar = () => {
             Black Holes
           </li>
         </ul>
-        <a
+        <Link
           href="/"
           aria-label=""
           className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-200 hover:text-gray-300"
         >
           Learn more
-        </a>
+        </Link>
       </div>
       <div>
         <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-100 hover:bg-indigo-200">
@@ -387,13 +388,13 @@ const SearchBar = () => {
             Run
           </li>
         </ul>
-        <a
+        <Link
           href="/"
           aria-label=""
           className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-200 hover:text-gray-300"
         >
           Learn more
-        </a>
+        </Link>
       </div>
     </div>
   </div>

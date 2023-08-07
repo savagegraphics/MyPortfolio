@@ -13,7 +13,7 @@ const ContactFile = (props: Props) => {
         Contact us
       </h1>
       <p className="mt-1 text-gray-300 dark:text-gray-400">
-        I'd love to talk about how I can help you.
+        I&apos;d love to talk about how I can help you.
       </p>
     </div>
 
@@ -147,7 +147,7 @@ const ContactFile = (props: Props) => {
 
           <div className="mt-3 text-center">
             <p className="text-sm text-gray-300">
-              I'll get back to you in 1-2 business days.
+              I&apos;ll get back to you in 1-2 business days.
             </p>
           </div>
         </form>

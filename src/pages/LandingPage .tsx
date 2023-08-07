@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
+
 
 const HeroSection = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,9 +9,9 @@ const HeroSection = () => {
     <section className="bg-white dark:bg-gray-900">
       <nav x-data="{ isOpen: false }" className="container p-6 mx-auto lg:flex lg:justify-between lg:items-center">
       <div className="flex items-center justify-between">
-          <a href="#">
+          <Link href="#">
             <img className="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
-          </a>
+          </Link>
 
 
         {/* Mobile menu button */}
@@ -55,44 +57,44 @@ const HeroSection = () => {
   }`}
 >
   <div className="flex flex-col space-y-4 lg:mt-0 lg:flex-row lg:space-y-0">
-    <a
+    <Link
       className="text-gray-700 lg:mx-6 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
       href="#"
     >
       Home
-    </a>
-    <a
+    </Link>
+    <Link
       className="text-gray-700 lg:mx-6 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
       href="#"
     >
       Components
-    </a>
-    <a
+    </Link>
+    <Link
       className="text-gray-700 lg:mx-6 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
       href="#"
     >
       Pricing
-    </a>
-    <a
+    </Link>
+    <Link
       className="text-gray-700 lg:mx-6 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
       href="#"
     >
       Contact
-    </a>
-    <a
+    </Link>
+    <Link
       className="text-gray-700 lg:mx-6 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
       href="#"
     >
       FAQ
-    </a>
+    </Link>
   </div>
 
-  <a
+  <Link
     className="block h-10 px-5 py-2 mt-4 text-sm text-center text-gray-700 capitalize transition-colors duration-300 transform border rounded-md dark:hover:bg-gray-700 dark:text-white lg:mt-0 hover:bg-gray-100 lg:w-auto"
     href="#"
   >
     Contact Us
-  </a>
+  </Link>
 </div>
 </nav>
 

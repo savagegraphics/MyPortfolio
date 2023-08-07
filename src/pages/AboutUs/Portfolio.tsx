@@ -153,9 +153,9 @@ const Portfolio = () => {
 		<div className="space-y-1">
 			<span className="text-sm">April 03, 2021</span>
 			<div className="flex flex-wrap space-x-3">
-				<a rel="noopener noreferrer" href="#" className="inline-block px-2 py-1 text-sm font-semibold rounded-md dark:bg-violet-400 dark:text-gray-900">javascript</a>
-				<a rel="noopener noreferrer" href="#" className="inline-block px-2 py-1 text-sm font-semibold rounded-md dark:bg-violet-400 dark:text-gray-900">serverless</a>
-				<a rel="noopener noreferrer" href="#" className="inline-block px-2 py-1 text-sm font-semibold rounded-md dark:bg-violet-400 dark:text-gray-900">aws</a>
+				<Link rel="noopener noreferrer" href="#" className="inline-block px-2 py-1 text-sm font-semibold rounded-md dark:bg-violet-400 dark:text-gray-900">javascript</Link>
+				<Link rel="noopener noreferrer" href="#" className="inline-block px-2 py-1 text-sm font-semibold rounded-md dark:bg-violet-400 dark:text-gray-900">serverless</Link>
+				<Link rel="noopener noreferrer" href="#" className="inline-block px-2 py-1 text-sm font-semibold rounded-md dark:bg-violet-400 dark:text-gray-900">aws</Link>
 			</div>
 		</div>
 	</div>
