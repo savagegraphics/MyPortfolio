@@ -11,6 +11,7 @@ import Follow from './Follow';
 import Stats from './Stats';
 import SingleCard from './SingleCard';
 import FrameWorks from './FrameWorks';
+import TheSkills from './TheSkills';
 
 
 const About = () => {
@@ -29,10 +30,11 @@ const About = () => {
           <SingleCard/>
           </div>
           </div>
-     
-            <Portfolio/>
+          <TheSkills/>
+          {/* <Portfolio/> */}
+            {/* 
             <Stats/>
-            <FrameWorks/>
+            <FrameWorks/> */}
            
          {/* <Hero/>
          <Analytics/> */}
