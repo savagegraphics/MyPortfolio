@@ -1,7 +1,6 @@
 import React from 'react' 
 import 'tailwindcss/tailwind.css';
 import '@/app/globals.css'
-import Footer from '@/components/Footer';
 import Hero from './Hero/Hero';
 import About from './AboutUs/About';
 import Contact from './GetInTouch/Contact';
@@ -16,7 +15,6 @@ const index = () => {
       <About/>
       <Contact/>
       <Project/>
-      <Footer/>
     </div>
   )
 }
