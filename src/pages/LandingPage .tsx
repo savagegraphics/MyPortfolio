@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-
+import Image from 'next/image'
 
 const HeroSection = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,7 @@ const HeroSection = () => {
       <nav x-data="{ isOpen: false }" className="container p-6 mx-auto lg:flex lg:justify-between lg:items-center">
       <div className="flex items-center justify-between">
           <Link href="#">
-            <img className="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
+            <Image className="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
           </Link>
 
 
@@ -169,7 +169,7 @@ const HeroSection = () => {
 </div>
 
 <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
-  <img
+  <Image
     className="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl"
     src="https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
     alt="glasses photo"

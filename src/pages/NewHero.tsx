@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image'
 
   const NewHero = () => {
   const [asideVisible, setAsideVisible] = useState(true);
@@ -70,7 +71,7 @@ const handleToggleAside = () => {
         <aside className="flex flex-col lg:w-74 w-64 h-screen px-4 py-8 overflow-y-auto bg-gray-900 border-gray-700 boder- rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
 
         <div className="flex flex-col items-center mt-2 -mx-2">
-            <img className="object-cover lg:w-48 lg:h-48 w-24 h-24 mx-2 rounded-full" src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="avatar"/>
+            <Image className="object-cover lg:w-48 lg:h-48 w-24 h-24 mx-2 rounded-full" src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="avatar"/>
             <h4 className="mx-2 sm:ml-4 mt-2 font-medium text-indigo-400 dark:text-gray-200">Toheeb Olawale RAJI</h4>
             <p className="mx-2 mt-2 text-sm font-medium text-gray-300 dark:text-gray-400">Front End Developer</p>
         </div>

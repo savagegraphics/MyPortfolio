@@ -1,6 +1,8 @@
 import React from 'react'
 import './MultiCard.css'
 import Link from 'next/link'
+import Image from 'next/image'
+
 
 const MultiCard = () => {
   return (
@@ -30,7 +32,7 @@ const MultiCard = () => {
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
         >
           <div className="flex flex-col h-full">
-            <img
+            <Image
               src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
@@ -54,7 +56,7 @@ const MultiCard = () => {
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
         >
           <div className="flex flex-col h-full">
-            <img
+            <Image
               src="https://images.pexels.com/photos/3182750/pexels-photo-3182750.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
@@ -78,7 +80,7 @@ const MultiCard = () => {
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
         >
           <div className="flex flex-col h-full">
-            <img
+            <Image
               src="https://images.pexels.com/photos/3182746/pexels-photo-3182746.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
@@ -100,7 +102,7 @@ const MultiCard = () => {
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
         >
           <div className="flex flex-col h-full">
-            <img
+            <Image
               src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
@@ -124,7 +126,7 @@ const MultiCard = () => {
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
         >
           <div className="flex flex-col h-full">
-            <img
+            <Image
               src="https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
               className="object-cover w-full h-48"
               alt=""
@@ -148,7 +150,7 @@ const MultiCard = () => {
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
         >
           <div className="flex flex-col h-full">
-            <img
+            <Image
               src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
@@ -172,7 +174,7 @@ const MultiCard = () => {
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
         >
           <div className="flex flex-col h-full">
-            <img
+            <Image
               src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
@@ -194,7 +196,7 @@ const MultiCard = () => {
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
         >
           <div className="flex flex-col h-full">
-            <img
+            <Image
               src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""

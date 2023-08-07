@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Link from 'next/link';
 import Analytics from '@/pages/Skills/analytics';
 import MultiCard from '@/pages/Skills/MultiCard';
+import Image from 'next/image'
+
 
 const Portfolio = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +20,7 @@ const Portfolio = () => {
         <div className="container px-6 py-6 mx-auto lg:flex lg:justify-between lg:items-center">
           <div className="flex items-center justify-between">
             <Link href="#">
-              <img className="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
+              <Image className="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
             </Link>
 
             {/* Mobile menu button */}

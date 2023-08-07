@@ -9,6 +9,7 @@ import Portfolio from '../AboutUs/Portfolio';
 import '@/pages/Dashboard.css'
 import FrameWorks from '../AboutUs/FrameWorks';
 import ContactFile from './ContactFile';
+import Image from 'next/image'
 
 
 const  Contact = () => {
@@ -58,7 +59,7 @@ export default Contact;
 //         <div className="container px-6 py-6 mx-auto lg:flex lg:justify-between lg:items-center">
 //           <div className="flex items-center justify-between">
 //             <Link href="#">
-//               <img className="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
+//               <Image className="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
 //             </Link>
 
 //             {/* Mobile menu button */}
