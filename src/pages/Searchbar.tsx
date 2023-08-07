@@ -133,7 +133,7 @@ const SearchBar = () => {
         </div>
         <h6 className="mb-2 font-semibold leading-5 text-white">Another life</h6>
         <p className="mb-3 text-sm text-gray-300">
-          There can be no thought of finishing for "aiming for the stars".
+          There can be no thought of finishing for &quot;aiming for the stars&quot;.
         </p>
         <ul className="mb-4 -ml-1 space-y-2">
           <li className="flex items-start text-gray-200">
