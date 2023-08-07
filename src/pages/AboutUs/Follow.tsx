@@ -12,7 +12,7 @@ const Follow = () => {
 
                 <div className="container flex flex-col mx-auto lg:flex-row">
                     <div className="flex flex-col py-8 space-y-6 mb-2 rounded-sm sm:p-8 lg:p-12 lg:w-1/2 xl:w-2/5 dark:bg-violet-400 dark:text-gray-900">
-                    <Image className="object-cover w-[380px] h-[340px] mx-auto rounded-md lg:max-w-2xl" src={Imaged} alt="glasses photo" />
+                    <Image className="object-cover w-[380px] h-[340px] mx-auto rounded-md lg:max-w-2xl" src={Imaged} alt="glasses photo"  width={200} height={100}/>
                     </div>
                     <div className="container flex flex-col w-full max-w-2xl p-6 mx-auto mt-1 rounded-md divide-gray-700 dark:bg-gray-900 dark:text-gray-100">
                        <div className="space-y-1">

@@ -25,7 +25,7 @@ const Review = () => {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-violet-400 text-gray-900">
-				<Image src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500" />
+				<Image src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500"  width={200} height={100} />
 				<p className="text-xl font-semibold leadi">Distinctio Animi</p>
 				<p className="text-sm uppercase">Aliquam illum</p>
 			</div>
@@ -44,7 +44,7 @@ const Review = () => {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-violet-400 text-gray-900">
-				<Image src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500" />
+				<Image src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500"  width={200} height={100}/>
 				<p className="text-xl font-semibold leadi">Distinctio Animi</p>
 				<p className="text-sm uppercase">Aliquam illum</p>
 			</div>
@@ -63,7 +63,7 @@ const Review = () => {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-violet-400 text-gray-900">
-				<Image src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500" />
+				<Image src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500"  width={200} height={100}/>
 				<p className="text-xl font-semibold leadi">Distinctio Animi</p>
 				<p className="text-sm uppercase">Aliquam illum</p>
 			</div>
@@ -82,7 +82,7 @@ const Review = () => {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-violet-400 text-gray-900">
-				<Image src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500" />
+				<Image src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500"  width={200} height={100}/>
 				<p className="text-xl font-semibold leadi">Distinctio Animi</p>
 				<p className="text-sm uppercase">Aliquam illum</p>
 			</div>
@@ -101,7 +101,7 @@ const Review = () => {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-violet-400 text-gray-900">
-				<Image src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500" />
+				<Image src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500"  width={200} height={100}/>
 				<p className="text-xl font-semibold leadi">Distinctio Animi</p>
 				<p className="text-sm uppercase">Aliquam illum</p>
 			</div>
@@ -120,7 +120,7 @@ const Review = () => {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-violet-400 text-gray-900">
-				<Image src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500" />
+				<Image src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500"  width={200} height={100}/>
 				<p className="text-xl font-semibold leadi">Distinctio Animi</p>
 				<p className="text-sm uppercase">Aliquam illum</p>
 			</div>

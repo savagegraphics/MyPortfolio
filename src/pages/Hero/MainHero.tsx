@@ -52,7 +52,7 @@ const MainHero = () => {
             </div>
     
             <div className="flex items-center justify-center lg:mr-16 w-full h-96 lg:w-1/2">
-                <Image className="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" src={Imaged} alt="glasses photo" />
+                <Image className="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" src={Imaged} alt="glasses photo"  width={200} height={100}/>
             </div>
         </div>
     </section>

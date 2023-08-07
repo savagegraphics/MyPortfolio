@@ -77,7 +77,7 @@ const Sidebar = () => {
          <nav>
         {/* Navigation Links */}
         <div className="flex flex-col items-center lg:mt-[28px] mt-[24px] -mx-2">
-            <Image className="object-cover lg:w-48 lg:h-48 w-24 h-24 mx-2 rounded-full" src={NewImage} alt="avatar"/>
+            <Image className="object-cover lg:w-48 lg:h-48 w-24 h-24 mx-2 rounded-full" src={NewImage} alt="avatar"  width={200} height={100}/>
             <h4 className="mx-2 sm:ml-4 mt-2 font-medium text-indigo-400 dark:text-gray-200">Toheeb Olawale RAJI</h4>
             <p className="mx-2 mt-2 text-sm font-medium text-gray-300 dark:text-gray-400">Front End Developer</p>
         </div>

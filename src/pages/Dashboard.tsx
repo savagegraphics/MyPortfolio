@@ -55,7 +55,7 @@ export default Dashboard;
 //         <div className="container px-6 py-6 mx-auto lg:flex lg:justify-between lg:items-center">
 //           <div className="flex items-center justify-between">
 //             <Link href="#">
-//               <Image className="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
+//               <Image className="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt=""   width={200} height={100}/>
 //             </Link>
 
 //             {/* Mobile menu button */}

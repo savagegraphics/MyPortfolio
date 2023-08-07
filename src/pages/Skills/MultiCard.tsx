@@ -36,6 +36,8 @@ const MultiCard = () => {
               src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
+              width={200} 
+              height={100}
             />
             <div className="flex-grow border border-t-0 rounded-b">
               <div className="p-5">
@@ -60,6 +62,8 @@ const MultiCard = () => {
               src="https://images.pexels.com/photos/3182750/pexels-photo-3182750.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
+              width={200} 
+              height={100}
             />
             <div className="flex-grow border border-t-0 rounded-b">
               <div className="p-5">
@@ -84,6 +88,8 @@ const MultiCard = () => {
               src="https://images.pexels.com/photos/3182746/pexels-photo-3182746.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
+              width={200} 
+              height={100}
             />
             <div className="flex-grow border border-t-0 rounded-b">
               <div className="p-5">
@@ -106,6 +112,8 @@ const MultiCard = () => {
               src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
+              width={200} 
+              height={100}
             />
             <div className="flex-grow border border-t-0 rounded-b">
               <div className="p-5">
@@ -130,6 +138,8 @@ const MultiCard = () => {
               src="https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
               className="object-cover w-full h-48"
               alt=""
+              width={200} 
+              height={100}
             />
             <div className="flex-grow border border-t-0 rounded-b">
               <div className="p-5">
@@ -154,6 +164,8 @@ const MultiCard = () => {
               src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
+              width={200} 
+              height={100}
             />
             <div className="flex-grow border border-t-0 rounded-b">
               <div className="p-5">
@@ -178,6 +190,8 @@ const MultiCard = () => {
               src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
+              width={200} 
+              height={100}
             />
             <div className="flex-grow border border-t-0 rounded-b">
               <div className="p-5">
@@ -200,6 +214,8 @@ const MultiCard = () => {
               src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               className="object-cover w-full h-48"
               alt=""
+              width={200} 
+              height={100}
             />
             <div className="flex-grow border border-t-0 rounded-b">
               <div className="p-5">
