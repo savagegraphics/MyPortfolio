@@ -6,23 +6,24 @@ import Byline from '@/app/ui/byline'
 import 'tailwindcss/tailwind.css';
 import Hero from '@/components/Hero/Hero';
 import About from '@/components/AboutMe/About';
+import ContactFile from '@/components/GetInTouch/Contact';
 import Footer from '@/components/Footer';
 
 
 type Props = {}
 
-const about = (props: Props) => {
+const   contact = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const close = () => setIsOpen(false);
   return (
-    <div className="bg-gray-900 overflow-y-scroll pb-36 h-screen">
+    <div className="bg-gray-900 overflow-y-scroll pb-36">
         <div className="mt-4 flex h-14 items-center px-4 py-4 lg:h-auto">
           <Link
             href="/"
             className="group flex w-full items-center gap-x-2.5"
             onClick={close}
           >
-                <div className="grid">
+                 <div className="grid">
               <h4 className="mx-2 mt-2 font-medium text-indigo-400 dark:text-gray-200 sm:ml-4">
                 Toheeb Olawale RAJI
               </h4>
@@ -40,10 +41,10 @@ const about = (props: Props) => {
               </div>
             </div>
         </div>
-      <About/>
+      <ContactFile/>
       <Footer/>
     </div>
   )
 }
 
-export default about
+export default contact

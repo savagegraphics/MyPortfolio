@@ -1,44 +1,50 @@
 import React from 'react'
-import '@/pages/Resume.css'
-import Navbar from './Navbar';
-import Sidebars from './Sidebars';
-import SearchBar from './Searchbar';
-import DfHero from './DfHero';
-import Sidebar from './Sidebar';
-import Analytics from '@/pages/Skills/analytics';
-import Portfolio from './AboutUs/Portfolio';
+import { AddressBar } from '@/components/address-bar';
+import Link from 'next/link';
+import { useState } from 'react';
+import Byline from '@/app/ui/byline'
 import 'tailwindcss/tailwind.css';
-import Stats from '@/pages/AboutUs/Stats';
-import FrameWorks from '@/pages/AboutUs/FrameWorks';
-
+import Hero from '@/components/Hero/Hero';
+import About from '@/components/AboutMe/About';
+import Resume from '@/components/Resume/Resume';
+import Footer from '@/components/Footer';
 
 
 type Props = {}
 
-const Resume = (props: Props) => {
+const resume = (props: Props) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const close = () => setIsOpen(false);
   return (
-    <div className="flex flex-col h-screen bg-gray-900">
-    <div className="flex-1 flex flex-wrap">
-      <Sidebars />
-      <Sidebar/>
-      <div className="flex-1 p-4 w-full md:w-1/2">
-      <div className="column-shape bg-gray-800">
-      <div className="column-content bg-gray-800">
-      <DfHero/>
-      <Stats/>
-      <FrameWorks/>
-      {/* <Features/> */}
-          {/* <Portfolio/> */}
-       {/* 
-       <Analytics/> */}
-       {/* <DfHero/> */}
-       {/* */}
-  </div>
-      </div>
-    </div>
-    </div>
+    <div className="bg-gray-900 overflow-y-scroll pb-36 h-screen">
+        <div className="mt-4 flex h-14 items-center px-4 py-4 lg:h-auto">
+          <Link
+            href="/"
+            className="group flex w-full items-center gap-x-2.5"
+            onClick={close}
+          >
+                <div className="grid">
+              <h4 className="mx-2 mt-2 font-medium text-indigo-400 dark:text-gray-200 sm:ml-4">
+                Toheeb Olawale RAJI
+              </h4>
+              <p className="mx-2 mt-2 lg:ml-4 text-sm font-medium text-gray-300 dark:text-gray-400">
+                Front End Developer
+              </p>
+            </div>
+          </Link>
+        </div>
+
+        <div className="mx-auto max-w-8xl space-y-8 px-2 pt-6 lg:px-8 lg:py-8">
+            <div className="bg-vc-border-gradient rounded-lg p-px shadow-lg shadow-black/20">
+              <div className="rounded-lg bg-black">
+                <AddressBar />
+              </div>
+            </div>
+        </div>
+      <Resume/>
+         <Footer/>
     </div>
   )
 }
 
-export default Resume
+export default resume

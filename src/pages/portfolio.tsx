@@ -6,12 +6,14 @@ import Byline from '@/app/ui/byline'
 import 'tailwindcss/tailwind.css';
 import Hero from '@/components/Hero/Hero';
 import About from '@/components/AboutMe/About';
+import Portfolio from '@/components/Portfolio/Portfolio';
+import Preline from '@/components/Preline';
 import Footer from '@/components/Footer';
 
 
 type Props = {}
 
-const about = (props: Props) => {
+const portfolio = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const close = () => setIsOpen(false);
   return (
@@ -40,10 +42,11 @@ const about = (props: Props) => {
               </div>
             </div>
         </div>
-      <About/>
+      <Portfolio/>
+      {/* <Preline/> */}
       <Footer/>
     </div>
   )
 }
 
-export default about
+export default portfolio
