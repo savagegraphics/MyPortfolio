@@ -16,25 +16,25 @@ export function AddressBar() {
           </Link>
           <Link
             className="flex rounded px-2 py-2.5 text-gray-500 transition duration-200 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-cyan-500 hover:text-white"
-            href="/About"
+            href="/about"
           >
             <span className="font-medium">About</span>
           </Link>
           <Link
             className="flex rounded px-2 py-2.5 text-gray-500 transition duration-200 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-cyan-500 hover:text-white"
-            href="/Resume"
+            href="/resume"
           >
             <span className="font-medium">Resume</span>
           </Link>
           <Link
             className="flex rounded px-2 py-2.5 text-gray-500 transition duration-200 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-cyan-500 hover:text-white"
-            href="/Portfolio"
+            href="/portfolio"
           >
             <span className="font-medium">Portfolio</span>
           </Link>
           <Link
             className="flex rounded px-2 py-2.5 text-gray-500 transition duration-200 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-cyan-500 hover:text-white"
-            href="/Contact"
+            href="/contact"
           >
             <span className="font-medium">Contact</span>
           </Link>
