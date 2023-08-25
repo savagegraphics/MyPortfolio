@@ -11,7 +11,7 @@ import Footer from '@/components/Footer';
 
 type Props = {}
 
-const   contact = (props: Props) => {
+const  ContactPage = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const close = () => setIsOpen(false);
   return (
@@ -46,4 +46,4 @@ const   contact = (props: Props) => {
   )
 }
 
-export default contact
+export default ContactPage

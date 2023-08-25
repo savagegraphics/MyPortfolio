@@ -12,7 +12,7 @@ import Footer from '@/components/Footer';
 
 type Props = {}
 
-const portfolio = (props: Props) => {
+const PortfolioPage = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const close = () => setIsOpen(false);
   return (
@@ -48,4 +48,4 @@ const portfolio = (props: Props) => {
   )
 }
 
-export default portfolio
+export default PortfolioPage

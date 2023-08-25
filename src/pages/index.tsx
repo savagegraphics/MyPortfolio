@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 
 type Props = {}
 
-const index = (props: Props) => {
+const IndexPage = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const close = () => setIsOpen(false);
   return (
@@ -45,4 +45,4 @@ const index = (props: Props) => {
   )
 }
 
-export default index
+export default IndexPage
