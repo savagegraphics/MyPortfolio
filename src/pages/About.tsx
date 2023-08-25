@@ -1,21 +1,21 @@
-import React,{ useState } from 'react'
+import React, { useState } from 'react';
 import { AddressBar } from '@/components/address-bar';
 import Link from 'next/link';
-import Byline from '@/app/ui/byline'
+import Byline from '@/app/ui/byline';
 import 'tailwindcss/tailwind.css';
 import Hero from '@/components/Hero/Hero';
 import About from '@/components/AboutMe/About';
 import Footer from '@/components/Footer';
 
+type Props = {};
 
-type Props = {}
-
-const about = (props: Props) => {
+const AboutPage = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const close = () => setIsOpen(false);
+
   return (
     <div className="bg-gray-900 overflow-y-scroll pb-36 h-screen">
-        <div className="mt-4 flex h-14 items-center px-4 py-4 lg:h-auto">
+     <div className="mt-4 flex h-14 items-center px-4 py-4 lg:h-auto">
           <Link
             href="/"
             className="group flex w-full items-center gap-x-2.5"
@@ -45,4 +45,4 @@ const about = (props: Props) => {
   )
 }
 
-export default about
+export default AboutPage
