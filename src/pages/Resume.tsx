@@ -15,7 +15,7 @@ const ResumePage = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const close = () => setIsOpen(false);
   return (
-    <div className="bg-gray-900 overflow-y-scroll pb-36 h-screen">
+    <div className="overflow-hidden bg-gray-900 overflow-y-scroll pb-36 h-screen">
         <div className="mt-4 flex h-14 items-center px-4 py-4 lg:h-auto">
           <Link
             href="/"
