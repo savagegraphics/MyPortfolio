@@ -18,7 +18,7 @@ const Accordion = () => {
   return (
     <div className="hs-accordion-group">
       {accordionData.map((item, index) => (
-       <div className="flex flex-col m-2  max-w-md gap-2 p-6 rounded-md shadow-md bg-violet-400 text-zinc-100">
+       <div  key={index}  className="flex flex-col m-2  max-w-md gap-2 p-6 rounded-md shadow-md bg-violet-400 text-zinc-100">
         <div className={`hs-accordion ${activeAccordion === index ? 'active' : ''}`} key={index}>
         <button
   className={`flex justify-between items-center hs-accordion-toggle ${activeAccordion === index ? 'hs-accordion-active:text-blue-600 group hover:text-zinc-100 dark:hs-accordion-active:text-blue-600 dark:hover:text-gray-400' : 'text-gray-200 hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400'}`}
