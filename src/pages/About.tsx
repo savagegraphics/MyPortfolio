@@ -1,7 +1,6 @@
-import React from 'react'
+import React,{ useState } from 'react'
 import { AddressBar } from '@/components/address-bar';
 import Link from 'next/link';
-import { useState } from 'react';
 import Byline from '@/app/ui/byline'
 import 'tailwindcss/tailwind.css';
 import Hero from '@/components/Hero/Hero';

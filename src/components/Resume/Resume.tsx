@@ -83,7 +83,7 @@ const Resume = () => {
     <li>Developed a dynamic e-commerce platform, allowing businesses to showcase products and manage orders.</li>
     <li>Built a portfolio website for an artist, featuring an interactive gallery and contact form.</li>
     <li>Collaborated with a startup to create a customer management dashboard using React and Redux.</li>
-    <li>Customized WordPress websites to align with clients' branding and specific requirements.</li>  
+    <li>Customized WordPress websites to align with clients&apos; branding and specific requirements.</li>  
     </div>
       <div className="mt-5">
     <p className="mt-6 text-gray-200 group-hover:text-gray-800 text-bold text-2xl font-serif">Skills:</p>
