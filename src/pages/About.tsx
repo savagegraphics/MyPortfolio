@@ -14,23 +14,29 @@ const AboutPage = (props: Props) => {
   const close = () => setIsOpen(false);
 
   return (
-    <div className="overflow-hidden bg-gray-900 overflow-y-scroll pb-36 h-screen">
-     <div className="mt-4 flex h-14 items-center px-4 py-4 lg:h-auto">
-          <Link
-            href="/"
-            className="group flex w-full items-center gap-x-2.5"
-            onClick={close}
-          >
-                <div className="grid">
-              <h4 className="mx-2 mt-2 font-medium text-indigo-400 dark:text-gray-200 sm:ml-4">
-                Toheeb Olawale RAJI
-              </h4>
-              <p className="mx-2 mt-2 lg:ml-4 text-sm font-medium text-gray-300 dark:text-gray-400">
-                Front End Developer
-              </p>
-            </div>
-          </Link>
+    <div className="overflow-hidden bg-gray-900 overflow-y-scroll pb-36">
+    <div className="mt-4 flex justify-space-around h-14 items-center px-4 py-4 lg:h-auto">
+      <Link
+        href="/"
+        className="group flex w-full items-center gap-x-2.5"
+        onClick={close}
+      >
+             <div className="grid">
+          <h4 className="mx-2 mt-2 font-medium text-indigo-400 dark:text-gray-200 sm:ml-4">
+            Toheeb Olawale RAJI
+          </h4>
+          <p className="mx-2 mt-2 lg:ml-4 text-sm font-medium text-gray-300 dark:text-gray-400">
+            Front End Developer
+          </p>
         </div>
+      </Link>
+            <Link
+        className="flex text-right text-[10px] whitespace-nowrap rounded h-10 ml-2 pt-2 transform bg-blue-500 px-2 py-2 text-white transition-colors duration-300 hover:bg-blue-400 focus:bg-blue-400 focus:outline-none"
+        href="/GetInTouch/Contact"
+      >
+        Download CV
+      </Link>
+    </div>
 
         <div className="mx-auto max-w-8xl space-y-8 px-2 pt-6 lg:px-8 lg:py-8">
             <div className="bg-vc-border-gradient rounded-lg p-px shadow-lg shadow-black/20">

@@ -32,7 +32,7 @@ const  Contact = (props: Props) => {
             </div>
           </Link>
                 <Link
-            className="flex text-[10px] whitespace-nowrap rounded h-10 ml-2 transform bg-blue-500 px-2 py-2 text-white transition-colors duration-300 hover:bg-blue-400 focus:bg-blue-400 focus:outline-none"
+            className="flex text-right text-[10px] whitespace-nowrap rounded h-10 ml-2 pt-2 transform bg-blue-500 px-2 py-2 text-white transition-colors duration-300 hover:bg-blue-400 focus:bg-blue-400 focus:outline-none"
             href="/GetInTouch/Contact"
           >
             Download CV
