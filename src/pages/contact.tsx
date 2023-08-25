@@ -16,7 +16,7 @@ const  Contact = (props: Props) => {
   const close = () => setIsOpen(false);
   return (
     <div className="overflow-hidden bg-gray-900 overflow-y-scroll pb-36">
-        <div className="mt-4 flex h-14 items-center px-4 py-4 lg:h-auto">
+        <div className="mt-4 flex justify-space-around h-14 items-center px-4 py-4 lg:h-auto">
           <Link
             href="/"
             className="group flex w-full items-center gap-x-2.5"
@@ -30,6 +30,12 @@ const  Contact = (props: Props) => {
                 Front End Developer
               </p>
             </div>
+          </Link>
+                <Link
+            className="flex text-[10px] whitespace-nowrap rounded h-10 ml-2 transform bg-blue-500 px-2 py-2 text-white transition-colors duration-300 hover:bg-blue-400 focus:bg-blue-400 focus:outline-none"
+            href="/GetInTouch/Contact"
+          >
+            Download CV
           </Link>
         </div>
 
