@@ -8,7 +8,7 @@ import Link from 'next/link';
 const MainHero = () => {
   return (
     <div>
-    <section className='bg-gray-800 lg:mt-4 lg:mx-16 m-4 rounded-3xl lg-h-[650px] md-h-[580px] sm-h-[700px] max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14'>
+    <section className='bg-gray-800 lg:mt-4 lg:mx-16 m-4 rounded-3xl lg-h-[650px] md-h-[580px] sm-h-[700px] max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8'>
     
 <div className="container flex flex-col lg:pl-12 px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
             <div className="w-full lg:w-1/2">

@@ -6,7 +6,7 @@ const Footer = (props: Props) => {
   return (
     <footer className="bg-gray-800 text-gray-50 mx-8 rounded-lg">
 	<div className="container flex p-4 mx-auto md:p-8 lg:flex-row divide-gray-400">
-		<p className="self-center md:mr-6 py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
+		<p className="self-center md:mr-6 text-[12px] font-thin text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-2 lg:flex-1 lg:justify-start">
    Copyright Savagedotjsx 2023
     
 		</p>

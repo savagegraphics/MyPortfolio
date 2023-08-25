@@ -39,7 +39,9 @@ const index = (props: Props) => {
             </div>
         </div>
         <Hero/>
-       <Footer/>
+        <div className="lg:ml-96 lg:mr-8 mt-8 ml-16">
+        <Footer/>
+        </div>
     </div>
   )
 }

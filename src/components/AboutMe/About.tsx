@@ -11,7 +11,7 @@ import SpecialSkillz from './SpecialSkillz'
 const About = () => {
   return (
     <div>
-      <section className='bg-gray-800 lg:mt-4 sm:mt-1 lg:mx-16 m-4 rounded-3xl max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14'>
+      <section className='bg-gray-800 lg:mt-4 sm:mt-1 lg:mx-16 m-4 rounded-3xl max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8'>
 
         <article className="md:gap-8 md:grid md:grid-cols-3 my-4 lg:mx-12 mx-6">
           {/* Left Side */}
@@ -39,12 +39,12 @@ const About = () => {
               </div>
             </div>
             <p className="mb-2 text-md text-gray-300 dark:text-gray-400">
-            I'm a dynamic full-stack web developer, deeply passionate about frontend innovation. My mastery of HTML, CSS, and JavaScript allows me to create captivating user interfaces that leave a lasting impression. What truly excites me is the combination of React and Next.js.
+            I&amp;m a dynamic full-stack web developer, deeply passionate about frontend innovation. My mastery of HTML, CSS, and JavaScript allows me to create captivating user interfaces that leave a lasting impression. What truly excites me is the combination of React and Next.js.
 
           React is my canvas, where I bring ideas to life with its modular and efficient components. Its virtual DOM empowers me to build seamless user experiences. And with Next.js, I take web development to the next level. Server-side rendering, routing, and optimized performance are my playgrounds, giving users lightning-fast interactions.
 
-           I'm not just a coder; I'm an artist. My work reflects my dedication to blending technology with creativity. I thrive on challenging projects that push my skills further. Whether it's crafting intricate frontend designs or architecting MERN stack applications, my commitment to excellence shines through. I'm the bridge between code and design, and I embrace the latest trends with fervor. Together, React and Next.js are my dynamic duo, and 
-           I'm ready to take on the ever-evolving landscape of frontend development.
+           I&amp;m not just a coder; I&amp;m an artist. My work reflects my dedication to blending technology with creativity. I thrive on challenging projects that push my skills further. Whether it&amp;s crafting intricate frontend designs or architecting MERN stack applications, my commitment to excellence shines through. I&amp;m the bridge between code and design, and I embrace the latest trends with fervor. Together, React and Next.js are my dynamic duo, and 
+           I&amp;m ready to take on the ever-evolving landscape of frontend development.
             </p>
             <aside className="flex items-center mt-1 space-x-5">
             <div className="grid items-center lg:mr-16 lg:grid-cols-2 gap-6 lg:gap-16">
