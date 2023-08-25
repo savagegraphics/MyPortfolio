@@ -65,7 +65,7 @@ const About = () => {
           </div>
         </article>
         <div className="grid items-center lg:grid-cols-2 gap-6 lg:gap-16 sm:mx-12">
-        <div className="flex flex-col p-4 ml-8">
+        <div className="flex flex-col p-4 m-8">
         <OtherSkills/>
          </div>
          <div className="flex flex-col p-4">
