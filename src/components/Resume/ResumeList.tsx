@@ -26,11 +26,11 @@ const ResumeList = (props: Props) => {
       break;
     case 'App Design':
       // Replace this with the component/content for App Design
-      contentToShow = <Accordion />;
+      contentToShow = <Accordion/>;
       break;
     case 'Branding':
       // Replace this with the component/content for Branding
-      contentToShow = <div>Branding Content</div>;
+      contentToShow = <Accordion/>;
       break;
     default:
       contentToShow = null;
@@ -65,7 +65,7 @@ const ResumeList = (props: Props) => {
               Skills
             </button> </Link>
 
-            <Link href="/Accordion">
+            <Link href="/OtherSkills">
               <button
                 className={`h-12 px-8 py-2 -mb-px text-sm text-center ${
                   activeButton === 'App Design'
