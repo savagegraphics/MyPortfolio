@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Portfolio from './Portfolio';
 import ProjectUno from './ProjectUno';
 import ProjectDos from './ProductDos';
+import AllComp from './AllComp';
 
 type Props = {};
 
@@ -18,19 +19,19 @@ const PortfolioList = (props: Props) => {
 
   switch (activeButton) {
     case 'Animation':
-      contentToShow = <ProjectUno/>;
+      contentToShow = <AllComp/>;
       break;
     case 'Web Design':
       // Replace this with the component/content for Web Design
-      contentToShow = <Portfolio/>
+      contentToShow = <ProjectUno/>;
       break;
     case 'App Design':
       // Replace this with the component/content for App Design
-      contentToShow = <ProjectDos/>
+      contentToShow = <Portfolio/>
       break;
     case 'Branding':
       // Replace this with the component/content for Branding
-      contentToShow = <div className="here">here</div>
+      contentToShow = <ProjectDos/>
       break;
     default:
       contentToShow = null;
@@ -49,7 +50,7 @@ const PortfolioList = (props: Props) => {
                 } sm:text-base dark:text-white whitespace-nowrap cursor-pointer focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400`}
                 onClick={() => handleButtonClick('Animation')}
               >
-               E-commerce Websites
+                All
               </button>
 
           <button
@@ -60,7 +61,7 @@ const PortfolioList = (props: Props) => {
              } sm:text-base dark:text-white whitespace-nowrap cursor-pointer focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400`}
               onClick={() => handleButtonClick('Web Design')}
             >
-              Corporate Websites 
+                 E-commerce Websites
             </button>
 
               <button
@@ -71,7 +72,7 @@ const PortfolioList = (props: Props) => {
               } sm:text-base dark:text-white whitespace-nowrap cursor-pointer focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400`}
                 onClick={() => handleButtonClick('App Design')}
               >
-              Blog and Content Websites
+             Corporate Websites 
               </button>
 
               <button
@@ -82,7 +83,7 @@ const PortfolioList = (props: Props) => {
               } sm:text-base dark:text-white whitespace-nowrap cursor-pointer focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400`}
                 onClick={() => handleButtonClick('Branding')}
               >
-                Branding
+                 Blog and Content Websites
               </button>
           </div>
           {/* Display the dynamic content */}

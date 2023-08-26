@@ -7,11 +7,7 @@ const ProjectUno = () => {
   return (
 <div>
 <div>
- <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
-    <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Project</h2>
-    <p className="mt-1 text-gray-900">We&apos;ve helped some great companies brand, design and get to market.</p>
-  </div>
-  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-4">
     <Link className="group rounded-xl overflow-hidden" href="#">
       <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
         <Image className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" alt="Image Description"  width={200} height={100}/>
@@ -21,10 +17,10 @@ const ProjectUno = () => {
       </div>
 
       <div className="mt-7">
-        <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
+        <h3 className="text-xl font-semibold text-gray-200 group-hover:text-gray-600 dark:text-gray-200">
           Studio by Preline
         </h3>
-        <p className="mt-3 text-gray-800 dark:text-gray-200">
+        <p className="mt-3 text-gray-200 dark:text-gray-200">
           Produce professional, reliable streams easily leveraging Preline&apos;s innovative broadcast studio
         </p>
         <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
@@ -45,10 +41,10 @@ const ProjectUno = () => {
       </div>
 
       <div className="mt-7">
-        <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
+        <h3 className="text-xl font-semibold text-gray-200 group-hover:text-gray-600 dark:text-gray-200">
           Onsite
         </h3>
-        <p className="mt-3 text-gray-800 dark:text-gray-200">
+        <p className="mt-3 text-gray-200 dark:text-gray-200">
           Optimize your in-person experience with best-in-class capabilities like badge printing and lead retrieval
         </p>
         <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">

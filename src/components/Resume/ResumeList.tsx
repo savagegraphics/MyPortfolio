@@ -18,18 +18,14 @@ const ResumeList = (props: Props) => {
 
   switch (activeButton) {
     case 'Animation':
-      contentToShow = <Resume />;
+      contentToShow = <Resume />; 
       break;
-    case 'Web Design':
+    case 'Web Design': 
       // Replace this with the component/content for Web Design
       contentToShow = <OtherSkills/>;
       break;
     case 'App Design':
       // Replace this with the component/content for App Design
-      contentToShow = <Accordion/>;
-      break;
-    case 'Branding':
-      // Replace this with the component/content for Branding
       contentToShow = <Accordion/>;
       break;
     default:
@@ -49,7 +45,7 @@ const ResumeList = (props: Props) => {
                 } sm:text-base dark:text-white whitespace-nowrap cursor-pointer focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400`}
                 onClick={() => handleButtonClick('Animation')}
               >
-                Experience
+               Experience
               </button>
 
           <button
@@ -60,7 +56,7 @@ const ResumeList = (props: Props) => {
              } sm:text-base dark:text-white whitespace-nowrap cursor-pointer focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400`}
               onClick={() => handleButtonClick('Web Design')}
             >
-              Skills
+                Skills
             </button>
 
               <button
@@ -71,18 +67,7 @@ const ResumeList = (props: Props) => {
               } sm:text-base dark:text-white whitespace-nowrap cursor-pointer focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400`}
                 onClick={() => handleButtonClick('App Design')}
               >
-                Additional Expertise.
-              </button>
-
-              <button
-                className={`h-12 px-8 py-2 -mb-px text-sm text-center ${
-                  activeButton === 'Branding'
-                  ? 'text-indigo-300 border-b-2 border-indigo-500'
-                  : 'text-gray-200 border-b-2 border-gray-200'
-              } sm:text-base dark:text-white whitespace-nowrap cursor-pointer focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400`}
-                onClick={() => handleButtonClick('Branding')}
-              >
-                Branding
+                 Additional Expertise.
               </button>
           </div>
           {/* Display the dynamic content */}

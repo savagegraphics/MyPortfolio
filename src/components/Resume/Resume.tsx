@@ -9,9 +9,9 @@ const Resume = () => {
     
     <Link className="group flex flex-col justify-center hover:bg-gray-200 hover:text-gray-800 text-gray-200 rounded-xl p-4 md:p-7" href="#">
       <div className="">
-        <h3 className="group-hover:text-gray-800 text-3xl font-semibold text-gray-200">2023 - Present</h3>
-        <p className="mt-6 text-gray-200 group-hover:text-gray-800 text-bold text-2xl font-serif">Frontend Developer Intern</p>
-        <p className="mt-2 mb-4 text-gray-200 group-hover:text-gray-800 text-bold text-2xl font-serif">Company Name, City</p>
+        <h3 className="group-hover:text-gray-800 text-md font-semibold text-gray-200">August 2021 - Present, Miami Florida.</h3>
+        <p className="mt-6 text-gray-200 group-hover:text-gray-800 text-bold text-xl font-serif">Frontend Developer Intern</p>
+        <p className="mt-2 mb-4 text-gray-200 group-hover:text-gray-800 text-bold text-xl font-serif">Boss Maintenance and Supply </p>
       <li>Collaborated with a cross-functional team to develop and maintain user-friendly web applications using MERN stack (MongoDB, Express.js, React, Node.js).</li>
       <li>Assisted in setting up development environments and version control using Git for efficient collaboration.</li>
       <li>Implemented responsive and visually appealing user interfaces using Next.js and TypeScript.</li>
@@ -58,9 +58,9 @@ const Resume = () => {
     
     <Link className="group flex flex-col justify-center hover:bg-gray-200 hover:text-gray-800 text-gray-200 rounded-xl p-4 md:p-7" href="#">
       <div className="">
-      <h3 className="group-hover:text-gray-800 text-3xl font-semibold text-gray-200">2023 - Present</h3>
-        <p className="mt-6 text-gray-200 group-hover:text-gray-800 text-bold text-2xl font-serif">Freelance Frontend Developer</p>
-        <p className="mt-2 mb-4 text-gray-200 group-hover:text-gray-800 text-bold text-2xl font-serif">Company Name, City</p>
+      <h3 className="group-hover:text-gray-800 text-md font-semibold text-gray-200">July 2022 - Present, Miami Florida</h3>
+        <p className="mt-6 text-gray-200 group-hover:text-gray-800 text-bold text-xl font-serif">Freelance Frontend Developer</p>
+        <p className="mt-2 mb-4 text-gray-200 group-hover:text-gray-800 text-bold text-xl font-serif">Boss Maintenance and Supply</p>
     <li>Collaborated with diverse clients to conceptualize, design, and develop custom web solutions using MERN stack (MongoDB, Express.js, React, Node.js).</li>
     <li>Led the end-to-end development process, from requirements gathering and design to deployment and maintenance.</li>
     <li>Translated design concepts into responsive and interactive user interfaces using Next.js and TypeScript.</li>

@@ -7,11 +7,7 @@ const Portfolio = () => {
   return (
     <div>
        <div>
- <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
-    <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Project</h2>
-    <p className="mt-1 text-gray-900">We&apos;ve helped some great companies brand, design and get to market.</p>
-  </div>
-  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:mb-4 mb-8">
     <Link className="group rounded-xl overflow-hidden" href="#">
       <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
         <Image className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" alt="Image Description"  width={200} height={100}/>
@@ -21,10 +17,10 @@ const Portfolio = () => {
       </div>
 
       <div className="mt-7">
-        <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
+        <h3 className="text-xl font-semibold text-gray-200 group-hover:text-gray-600 dark:text-gray-200">
           Studio by Preline
         </h3>
-        <p className="mt-3 text-gray-800 dark:text-gray-200">
+        <p className="mt-3 text-gray-200">
           Produce professional, reliable streams easily leveraging Preline&apos;s innovative broadcast studio
         </p>
         <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
@@ -45,10 +41,10 @@ const Portfolio = () => {
       </div>
 
       <div className="mt-7">
-        <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
+        <h3 className="text-xl font-semibold group-hover:text-gray-600 text-gray-200">
           Onsite
         </h3>
-        <p className="mt-3 text-gray-800 dark:text-gray-200">
+        <p className="mt-3 text-gray-200">
           Optimize your in-person experience with best-in-class capabilities like badge printing and lead retrieval
         </p>
         <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
@@ -102,10 +98,10 @@ const Portfolio = () => {
       </div>
 
       <div className="mt-7">
-        <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
+        <h3 className="text-xl font-semibold text-gray-200 group-hover:text-gray-600 dark:text-gray-200">
           Studio by Preline
         </h3>
-        <p className="mt-3 text-gray-800 dark:text-gray-200">
+        <p className="mt-3 text-gray-200 dark:text-gray-200">
           Produce professional, reliable streams easily leveraging Preline&apos;s innovative broadcast studio
         </p>
         <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
@@ -126,10 +122,10 @@ const Portfolio = () => {
       </div>
 
       <div className="mt-7">
-        <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
+        <h3 className="text-xl font-semibold text-gray-200 group-hover:text-gray-600 dark:text-gray-200">
           Onsite
         </h3>
-        <p className="mt-3 text-gray-800 dark:text-gray-200">
+        <p className="mt-3 text-gray-200 dark:text-gray-200">
           Optimize your in-person experience with best-in-class capabilities like badge printing and lead retrieval
         </p>
         <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
@@ -143,128 +139,6 @@ const Portfolio = () => {
 
   </div>
 </div>
-
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
-        <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-          <img
-            src="https://images.pexels.com/photos/2408666/pexels-photo-2408666.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
-            className="object-cover w-full h-64"
-            alt=""
-          />
-          <div className="p-5 border border-t-0">
-            <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-              <Link
-                href="/"
-                className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                aria-label="Category"
-                title="traveling"
-              >
-                traveling
-              </Link>
-              <span className="text-gray-600">— 28 Dec 2020</span>
-            </p>
-            <Link
-              href="/"
-              aria-label="Category"
-              title="Visit the East"
-              className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
-            >
-              Visit the East
-            </Link>
-            <p className="mb-2 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
-            </p>
-            <Link
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </Link>
-          </div>
-        </div>
-        <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-          <img
-            src="https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-            className="object-cover w-full h-64"
-            alt=""
-          />
-          <div className="p-5 border border-t-0">
-            <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-              <Link
-                href="/"
-                className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                aria-label="Category"
-                title="traveling"
-              >
-                traveling
-              </Link>
-              <span className="text-gray-600">— 28 Dec 2020</span>
-            </p>
-            <Link
-              href="/"
-              aria-label="Category"
-              title="Simple is better"
-              className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
-            >
-              Simple is better
-            </Link>
-            <p className="mb-2 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
-            </p>
-            <Link
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </Link>
-          </div>
-        </div>
-        <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-          <img
-            src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-            className="object-cover w-full h-64"
-            alt=""
-          />
-          <div className="p-5 border border-t-0">
-            <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-              <Link
-                href="/"
-                className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                aria-label="Category"
-                title="traveling"
-              >
-                traveling
-              </Link>
-              <span className="text-gray-600">— 28 Dec 2020</span>
-            </p>
-            <Link
-              href="/"
-              aria-label="Category"
-              title="Film It!"
-              className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
-            >
-              Film It!
-            </Link>
-            <p className="mb-2 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
-            </p>
-            <Link
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
   )
 }
