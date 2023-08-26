@@ -8,6 +8,7 @@ import About from '@/components/AboutMe/About';
 import Portfolio from '@/components/Portfolio/Portfolio';
 import Preline from '@/components/Preline';
 import Footer from '@/components/Footer';
+import PortfolioList from '@/components/Portfolio/PortfolioList';
 
 
 type Props = {}
@@ -47,7 +48,7 @@ const PortfolioPage = (props: Props) => {
               </div>
             </div>
         </div>
-      <Portfolio/>
+      <PortfolioList/>
       {/* <Preline/> */}
       <Footer/>
     </div>

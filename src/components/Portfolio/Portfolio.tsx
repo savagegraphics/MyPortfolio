@@ -6,11 +6,8 @@ import Link from 'next/link';
 const Portfolio = () => {
   return (
     <div>
-    <section className='bg-gray-800 lg:mt-4 lg:mx-16 m-4 rounded-3xl lg-h-[650px] md-h-[580px] sm-h-[700px] max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 '>
-     
-     
-<div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-<div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
+       <div>
+ <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
     <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Project</h2>
     <p className="mt-1 text-gray-900">We&apos;ve helped some great companies brand, design and get to market.</p>
   </div>
@@ -268,8 +265,7 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
-       </section>
-    </div>
+  </div>
   )
 }
 
