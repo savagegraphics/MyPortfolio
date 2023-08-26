@@ -26,7 +26,7 @@ const Accordion = () => {
 		<div className="space-y-4">
 			<details className="w-full border rounded-lg">
 				<summary className="px-4 py-6 focus:outline-none focus-visible:ri">Problem-Solving</summary>
-				<p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-400">The ability to analyze challenges and find creative, efficient solutions for both technical and design issues.</p>
+				<p className="px-4 py-6 -mt-4 dark:text-gray-400">The ability to analyze challenges and find creative, efficient solutions for both technical and design issues.</p>
 			</details>
 			<details className="w-full border rounded-lg">
 				<summary className="px-4 py-6 focus:outline-none focus-visible:ri">Lorem at arcu rutrum viverra metus sapien venenatis lobortis odio?</summary>
