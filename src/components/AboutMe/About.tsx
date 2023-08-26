@@ -71,14 +71,11 @@ const About = () => {
          </div>
          <div className="flex flex-col p-4">
          {/* <h1 className='m-8 text-2xl font-serif text-gray-200'>Additional Expertise.</h1> */}
-         <AboutSkills/>
          {/* <Accordion/> */}
          </div>
          <div className="flex flex-col p-4">
-         <SpecialSkill/>
          </div>
          <div className="flex flex-col p-4">
-         <SpecialSkillz/>
          </div>
         </div>
       </section>
