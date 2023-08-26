@@ -6,6 +6,7 @@ import 'tailwindcss/tailwind.css';
 import Hero from '@/components/Hero/Hero';
 import About from '@/components/AboutMe/About';
 import Footer from '@/components/Footer';
+import AboutSkills from '@/components/AboutMe/AboutSkills';
 
 type Props = {};
 

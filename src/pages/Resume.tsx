@@ -7,6 +7,7 @@ import Hero from '@/components/Hero/Hero';
 import About from '@/components/AboutMe/About';
 import Resume from '@/components/Resume/Resume';
 import Footer from '@/components/Footer';
+import ResumeList from '@/components/Resume/ResumeList';
 
 
 type Props = {}
@@ -46,7 +47,7 @@ const ResumePage = (props: Props) => {
               </div>
             </div>
         </div>
-      <Resume/>
+      <ResumeList/>
          <Footer/>
     </div>
   )

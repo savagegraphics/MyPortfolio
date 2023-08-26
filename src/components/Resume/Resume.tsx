@@ -5,11 +5,7 @@ import Link from 'next/link'
 
 const Resume = () => {
   return (
-    <div>
-    <section className='bg-gray-800 lg:mt-4 lg:mx-16 m-4 rounded-3xl lg-h-[650px] md-h-[580px] sm-h-[700px] max-w-[85rem] px-4 sm:px-6 lg:px-8'>
-           
-<div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-  <div className="grid sm:grid-cols-2 lg:grid-cols-2 items-center gap-2">
+ <div className="grid sm:grid-cols-2 lg:grid-cols-2 items-center gap-2">
     
     <Link className="group flex flex-col justify-center hover:bg-gray-200 hover:text-gray-800 text-gray-200 rounded-xl p-4 md:p-7" href="#">
       <div className="">
@@ -109,9 +105,6 @@ const Resume = () => {
     </Link>
    
   </div>
-</div>
-       </section>
-    </div>
   )
 }
 

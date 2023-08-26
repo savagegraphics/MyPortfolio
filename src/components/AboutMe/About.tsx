@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import NewImage from '@/app/assets/bwoiyo.jpg'
 import Skill from './Skill'
-import OtherSkills from './OtherSkills'
+import OtherSkills from '../Resume/OtherSkills'
 import AboutSkills from './AboutSkills';
 import SpecialSkill from './SpecialSkill'
 import SpecialSkillz from './SpecialSkillz'
@@ -67,7 +67,7 @@ const About = () => {
         </article>
         <div className="grid items-center lg:grid-cols-2 gap-6 lg:gap-16">
         <div className="flex flex-col p-4 m-8">
-        <OtherSkills/>
+        {/* <OtherSkills/> */}
          </div>
          <div className="flex flex-col p-4">
          {/* <h1 className='m-8 text-2xl font-serif text-gray-200'>Additional Expertise.</h1> */}
