@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Resume from './Resume';
 import Link from 'next/link';
 import OtherSkills from './OtherSkills'
+import Accordion from './Accordion';
 
 type Props = {};
 
@@ -25,7 +26,7 @@ const ResumeList = (props: Props) => {
       break;
     case 'App Design':
       // Replace this with the component/content for App Design
-      contentToShow = <div>App Design Content</div>;
+      contentToShow = <Accordion />;
       break;
     case 'Branding':
       // Replace this with the component/content for Branding
@@ -53,7 +54,7 @@ const ResumeList = (props: Props) => {
               </button>
             </Link>
 
-            <button
+            <Link href="/OtherSkills"><button
               className={`h-12 px-8 py-2 -mb-px text-sm text-center ${
                 activeButton === 'Web Design'
                   ? 'text-blue-600 border-b-2 border-blue-500'
@@ -62,9 +63,9 @@ const ResumeList = (props: Props) => {
               onClick={() => handleButtonClick('Web Design')}
             >
               Skills
-            </button>
+            </button> </Link>
 
-            <Link href="/OtherSkills">
+            <Link href="/Accordion">
               <button
                 className={`h-12 px-8 py-2 -mb-px text-sm text-center ${
                   activeButton === 'App Design'
