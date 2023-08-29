@@ -23,10 +23,10 @@ const AboutPage = (props: Props) => {
         onClick={close}
       >
              <div className="grid">
-          <h4 className="mx-2 mt-2 font-medium text-indigo-400 dark:text-gray-200 sm:ml-4">
+             <h4 className="mx-2 mt-2 font-medium text-blue-400 dark:text-gray-200 sm:ml-4">
             Toheeb Olawale RAJI
           </h4>
-          <p className="mx-2 mt-2 lg:ml-4 text-sm font-medium text-gray-300 dark:text-gray-400">
+          <p className="mx-2 mt-2 lg:ml-4 text-sm font-medium text-gray-300">
             Front End Developer
           </p>
         </div>
