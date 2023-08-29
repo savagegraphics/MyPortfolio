@@ -65,25 +65,11 @@ const About = () => {
             </aside>
           </div>
         </article>
-        <div className="grid items-center lg:grid-cols-2 gap-6 lg:gap-16">
-        <div className="flex flex-col p-4 m-8">
-        {/* <OtherSkills/> */}
-         </div>
-         <div className="flex flex-col p-4">
-         {/* <h1 className='m-8 text-2xl font-serif text-gray-200'>Additional Expertise.</h1> */}
-         <AboutSkills/>
-         {/* <Accordion/> */}
-         </div>
-         <div className="flex flex-col p-4">
-         <SpecialSkill/>
-         </div>
-         <div className="flex flex-col p-4">
-         <SpecialSkillz/>
-         </div>
-        </div>
       </section>
     </div>
   )
 }
 
 export default About
+
+

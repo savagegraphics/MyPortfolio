@@ -28,8 +28,8 @@ const IndexPage = (props: Props) => {
           </p>
         </div>
       </Link>
-      <Link href="/file:///G:/My%20Drive/FrontendCV.pdf">
-      <button type="button" className="flex text-right m-6 px-3 py-2.5 font-thin whitespace-nowrap rounded bg-indigo-400 text-gray-200">Download CV</button>
+      <Link href="https://drive.google.com/file/d/1_Ui_A9XJx33CzLZwnA6iO93YHX-jIe1u/view?usp=drivesdk">
+      <button type="button" className="flex text-right m-6 px-3 py-2.5 font-medium text-sm whitespace-nowrap rounded bg-indigo-400 text-gray-200">Download CV</button>
       </Link>
     </div>
 

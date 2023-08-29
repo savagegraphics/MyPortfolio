@@ -1,11 +1,81 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import Link from 'next/link';
-
 
 
 type Props = {};
 
+type FormData = {
+  from_firstname: string;
+  from_lastname: string;
+  reply_to: string;
+  reply_two: string;
+  message: string;
+  to_name: string; // Add the "to_name" property here
+};
+
 const ContactFile = (props: Props) => {
+  const [formData, setFormData] = useState({
+    from_firstname: "",
+    from_lastname: "",
+    reply_to: "",
+    reply_two: "",
+    message: "",
+    to_name: "" 
+});
+const { from_firstname, from_lastname, reply_to, reply_two, message } = formData;
+
+  const form = useRef<HTMLFormElement | null>(null)
+
+  const onChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.id]: e.target.value
+    });
+  };
+
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+  
+    const emailData = {
+      from_firstname,
+      from_lastname,
+      reply_to,
+      reply_two,
+      message,
+      to_name: "Olawale Raji"
+    };
+  
+    const YOUR_SERVICE_ID = "service_rb8mrlq";
+    const YOUR_TEMPLATE_ID = "template_licfxi1";
+    const YOUR_PUBLIC_KEY = "-sfBJKfao4Mv-t_e8";
+  
+    // Sending the mail
+    emailjs
+      .send(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, emailData, YOUR_PUBLIC_KEY)
+      .then(
+        () => {
+          console.log("Email Sent");
+        },
+        (error) => {
+          console.log(JSON.stringify(error));
+        }
+      );
+  
+    console.log(emailData);
+  
+    setFormData({
+      from_firstname: "",
+      from_lastname: "",
+      reply_to: "",
+      reply_two: "",
+      message: "",
+      to_name: ""
+    });
+  };
+  
+  
+
   return (
     <div className='bg-gray-800 lg:mt-4 lg:mx-16 m-4 rounded-3xl lg-h-[650px] md-h-[580px] sm-h-[700px] max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8'>
       <div className='max-w-2xl p-8 lg:max-w-5xl mx-auto'>
@@ -107,43 +177,68 @@ const ContactFile = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 dark:border-gray-700">
+      <div className="form-body flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 dark:border-gray-700">
         <h2 className="mb-8 text-xl font-semibold text-gray-200 dark:text-gray-200">
           Fill in the form
         </h2>
 
-        <form>
+        <form className="form" onSubmit={onSubmit}>
           <div className="grid gap-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label htmlFor="hs-firstname-contacts-1" className="sr-only">First Name</label>
-                <input type="text" name="hs-firstname-contacts-1" id="hs-firstname-contacts-1" className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="First Name"/>
+                <input type="text" 
+                  name="from_firstname"
+                  value={from_firstname}
+                  onChange={onChange}
+                 id="from_firstname"           
+                className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="First Name"/>
               </div>
 
               <div>
                 <label htmlFor="hs-lastname-contacts-1" className="sr-only">Last Name</label>
-                <input type="text" name="hs-lastname-contacts-1" id="hs-lastname-contacts-1" className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="Last Name"/>
+                <input type="text" 
+                  name="from_lastname"
+                  value={from_lastname}
+                  onChange={onChange}
+                 id="from_lastname" 
+                className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="Last Name"/>
               </div>
             </div>
 
             <div>
-              <label htmlFor="hs-email-contacts-1" className="sr-only">Email</label>
-              <input type="email" name="hs-email-contacts-1" id="hs-email-contacts-1" autoComplete='email' className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="Email"/>
+              <label htmlFor="email" className="sr-only">Email</label>
+              <input type="email" 
+                  name="reply_to"
+                  value={reply_to}
+                  onChange={onChange}
+                  id="reply_to"
+              autoComplete='email' className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="Email"/>
             </div>
 
             <div>
-              <label htmlFor="hs-phone-number-1" className="sr-only">Phone Number</label>
-              <input type="text" name="hs-phone-number-1" id="hs-phone-number-1" className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="Phone Number"/>
+              <label htmlFor="number" className="sr-only">Phone Number</label>
+              <input type="number" 
+                   name="reply_two"
+                   value={reply_two}
+                   onChange={onChange}
+                   id="reply_two"
+              className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="Phone Number"/>
             </div>
 
             <div>
               <label htmlFor="hs-about-contacts-1" className="sr-only">Details</label>
-              <textarea id="hs-about-contacts-1" name="hs-about-contacts-1" rows={4} className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="Details"></textarea>
+              <textarea
+                name="message"
+                value={message}
+                onChange={onChange}
+                id="message"
+               rows={4} className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="Details"></textarea>
             </div>
           </div>
 
           <div className="mt-4 grid">
-            <button type="submit" className="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800">Send inquiry</button>
+            <button type="submit" id='button' className="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800">Send inquiry</button>
           </div>
 
           <div className="mt-3 text-center">
@@ -160,5 +255,4 @@ const ContactFile = (props: Props) => {
 }
 
 export default ContactFile
-
 

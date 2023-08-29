@@ -33,11 +33,8 @@ const PortfolioPage = (props: Props) => {
           </p>
         </div>
       </Link>
-            <Link
-        className="flex text-right text-[10px] whitespace-nowrap rounded h-10 ml-2 pt-2 transform bg-blue-500 px-2 py-2 text-white transition-colors duration-300 hover:bg-blue-400 focus:bg-blue-400 focus:outline-none"
-        href="/GetInTouch/Contact"
-      >
-        Download CV
+      <Link href="https://drive.google.com/file/d/1_Ui_A9XJx33CzLZwnA6iO93YHX-jIe1u/view?usp=drivesdk">
+      <button type="button" className="flex text-right m-6 px-3 py-2.5 font-medium text-sm whitespace-nowrap rounded bg-indigo-400 text-gray-200">Download CV</button>
       </Link>
     </div>
 
