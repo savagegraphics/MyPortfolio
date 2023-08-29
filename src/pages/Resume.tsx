@@ -33,7 +33,7 @@ const ResumePage = (props: Props) => {
         </div>
       </Link>
       <Link href="https://drive.google.com/file/d/1_Ui_A9XJx33CzLZwnA6iO93YHX-jIe1u/view?usp=drivesdk">
-      <button type="button" className="flex text-right m-6 px-3 py-2.5 font-medium text-sm whitespace-nowrap rounded bg-indigo-400 text-gray-200">Download CV</button>
+      <button type="button" className="flex text-right m-6 px-3 py-2.5 font-medium text-sm whitespace-nowrap rounded-xl bg-blue-500 hover:bg-blue-400 text-gray-200">Download CV</button>
       </Link>
     </div>
 

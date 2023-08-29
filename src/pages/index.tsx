@@ -20,7 +20,7 @@ const IndexPage = (props: Props) => {
         onClick={close}
       >
              <div className="grid">
-          <h4 className="mx-2 mt-2 font-medium text-indigo-400 dark:text-gray-200 sm:ml-4">
+          <h4 className="mx-2 mt-2 font-medium text-blue-500 dark:text-gray-200 sm:ml-4">
             Toheeb Olawale RAJI
           </h4>
           <p className="mx-2 mt-2 lg:ml-4 text-sm font-medium text-gray-300 dark:text-gray-400">
@@ -28,8 +28,9 @@ const IndexPage = (props: Props) => {
           </p>
         </div>
       </Link>
+
       <Link href="https://drive.google.com/file/d/1_Ui_A9XJx33CzLZwnA6iO93YHX-jIe1u/view?usp=drivesdk">
-      <button type="button" className="flex text-right m-6 px-3 py-2.5 font-medium text-sm whitespace-nowrap rounded bg-indigo-400 text-gray-200">Download CV</button>
+      <button type="button" className="flex text-right m-6 px-3 py-2.5 font-medium text-sm whitespace-nowrap rounded-xl bg-blue-500 hover:bg-blue-400 text-gray-200">Download CV</button>
       </Link>
     </div>
 
